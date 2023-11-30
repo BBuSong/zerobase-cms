@@ -22,10 +22,10 @@ public class ProductEntity {
   private String productName;       // 상품명
 
   @Column(name = "price", nullable = false)
-  private Long price;               // 상품 가격
+  private int price;               // 상품 가격
 
   @Column(name = "deliveryFee", nullable = false)
-  private Long deliveryFee;         // 배송비
+  private int deliveryFee;         // 배송비
 
   @Column(name = "size", nullable = false)
   private String size;              // 상품 사이즈

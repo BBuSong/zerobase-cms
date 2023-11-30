@@ -1,4 +1,4 @@
-package com.zerobase.cms.persist;
+package com.zerobase.cms.repository;
 
 import com.zerobase.cms.model.entity.UserEntity;
 import java.util.Optional;

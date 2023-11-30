@@ -2,7 +2,7 @@ package com.zerobase.cms.service;
 
 import com.zerobase.cms.model.Auth;
 import com.zerobase.cms.model.entity.UserEntity;
-import com.zerobase.cms.persist.UserRepository;
+import com.zerobase.cms.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.userdetails.UserDetails;
